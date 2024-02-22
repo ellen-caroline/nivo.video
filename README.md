@@ -7,3 +7,4 @@ React + TypeScript + Vite
 [Vite]()
 [Tailwind CSS]()
 [Lucide Icons]()
+[JSON Server](https://github.com/typicode/json-server)
