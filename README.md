@@ -12,7 +12,16 @@ Os usuários podem filtrar vídeos com base em tags específicas. Isso facilita 
 Os usuários têm a capacidade de criar novas tags para categorizar os vídeos. Isso permite uma organização flexível e uma forma intuitiva de classificar o conteúdo com base em diferentes critérios.
 
 ## 🖥️ Visualização do projeto
-Para visualizar o projeto, siga os seguintes passos:
+1. Visualize o projeto no [Vercel](https://nivo-video.vercel.app)!
+<br>
+
+<img src="./src/assets/notebook-mockup.png" width="520px" style="display: block; margin: auto" href="https://notes-eta-two.vercel.app" target="_blank" alt="mockup do note no computador. O fundo é um escritório com parede de cimento queimado e o notebook é preto." />
+
+<br>
+
+<strong>ou</strong>
+
+<br>
 
 1. Clone o repositório:
     ```
@@ -46,6 +55,7 @@ Para visualizar o projeto, siga os seguintes passos:
 - React Router DOM
 
 ## 📁 Pontos de Melhoria
+- Modificar informações do usuário
 - Adicionar funcionalidade para escolher quantos itens por página no componente pagination
 - Criar página configurações
 
