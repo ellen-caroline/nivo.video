@@ -60,10 +60,10 @@ import {
   
     return (
       <div className="flex text-sm items-center justify-between text-zinc-500">
-        <span>Showing 10 of {items} items</span>
+        <span>Mostrando 10 de {items} itens</span>
         <div className="flex items-center gap-8">
           <div className="flex items-center gap-2">
-            <span>Rows per page</span>
+            <span>Linhas por página</span>
   
             <Select defaultValue="10">
               <SelectTrigger aria-label="Page" />
@@ -75,7 +75,7 @@ import {
             </Select>
           </div>
   
-          <span>Page {page} of {pages}</span>
+          <span>Página {page} de {pages}</span>
   
           <div className="space-x-1.5">
             <Button onClick={firstPage} size="icon" disabled={page - 1 <= 0}>
