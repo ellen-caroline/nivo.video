@@ -5,17 +5,20 @@ Nivo.video é uma aplicação de listagem de vídeos que permite aos usuários f
 Esse projeto foi desenvolvido durante o evento <strong>React na prática</strong>, disponibilizada pela [Rocketseat](https://www.rocketseat.com.br/).
 
 ## 🛠️ Funcionalidades
-### 🔍 Filtrar Vídeos por Tag
+### 🔍 Filtrar vídeos por Tag
 Os usuários podem filtrar vídeos com base em tags específicas. Isso facilita a busca por vídeos relacionados a temas específicos, proporcionando uma experiência de navegação mais personalizada.
 
-### ➕ Criar Nova Tag
+### ➕ Criar nova Tag
 Os usuários têm a capacidade de criar novas tags para categorizar os vídeos. Isso permite uma organização flexível e uma forma intuitiva de classificar o conteúdo com base em diferentes critérios.
+
+### 🌐 Slug para vídeos
+Cada vídeo agora possui um slug associado, facilitando o compartilhamento de URLs amigáveis e melhorando a acessibilidade e indexação nos motores de busca.
 
 ## 🖥️ Visualização do projeto
 1. Visualize o projeto no [Vercel](https://nivo-video.vercel.app)!
 <br>
 
-<img src="./src/assets/notebook-mockup.png" width="520px" style="display: block; margin: auto" href="https://notes-eta-two.vercel.app" target="_blank" alt="mockup do note no computador. O fundo é um escritório com parede de cimento queimado e o notebook é preto." />
+<img src="./src/assets/notebook-mockup.png" width="520px" style="display: block; margin: auto" href="https://notes-eta-two.vercel.app" target="_blank" alt="mockup no computador. O fundo é um escritório com parede de cimento queimado e o notebook é preto." />
 
 <br>
 
@@ -56,8 +59,9 @@ Os usuários têm a capacidade de criar novas tags para categorizar os vídeos. 
 
 ## 📁 Pontos de Melhoria
 - Modificar informações do usuário
-- Adicionar funcionalidade para escolher quantos itens por página no componente pagination
-- Criar página configurações
+- Escolher itens por página no componente de paginação
+- Página de configurações
+- Responsividade e melhoria em mobiles
 
 
 ## 🔗 Links úteis
