@@ -16,12 +16,12 @@ export function Tabs() {
 
         <a href="" className="py-1.5 px-3 text-zinc-300 inline-flex items-center text-sm gap-1.5 font-medium rounded-full border border-transparent hover:border-zinc-800">
           <Settings className="size-4" />
-          Settings
+          Configurações
         </a>
 
         <a href="" className="py-1.5 px-3 text-zinc-300 inline-flex items-center text-sm gap-1.5 font-medium rounded-full border border-transparent hover:border-zinc-800">
           <Code2 className="size-4" />
-          Developers
+          Dev
         </a>
       </nav>
     </div>
