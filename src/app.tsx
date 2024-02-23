@@ -23,6 +23,7 @@ export interface TagResponse {
 
 export interface Tag {
   title: string
+  slug: string
   amountOfVideos: number
   id: string
 }
@@ -75,7 +76,7 @@ export function App() {
             <Dialog.Trigger asChild>
               <Button variant='primary'>
                 <Plus className="size-3" />
-                Crie um novo
+                Crie uma nova tag
               </Button>
             </Dialog.Trigger>
 
@@ -137,7 +138,7 @@ export function App() {
                   <TableCell>
                     <div className='flex flex-col gap-0.5'>
                       <span className='font-medium'>{tag.title}</span>
-                      <span className='text-xs text-zinc-500'>{tag.id}</span>
+                      <span className='text-xs text-zinc-500'>{tag.slug}</span>
                     </div>
                   </TableCell>
                   <TableCell className='text-zinc-300'>
